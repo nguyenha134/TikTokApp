@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_home.xml" value="0.138" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_identity.xml" value="0.138" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/transparent_bottom_nav_bar.xml" value="0.118" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/white_nav_icon_tint.xml" value="0.118" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.1105" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/activity_plash.xml" value="0.22282608695652173" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
