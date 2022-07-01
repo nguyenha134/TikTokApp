@@ -5,13 +5,38 @@
       <map>
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_home.xml" value="0.138" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_identity.xml" value="0.138" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_perm_identity.xml" value="0.121" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_round_close.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_round_play.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_search_white.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_send.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/ic_sign_up_dude.xml" value="0.1265" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/transparent_bottom_nav_bar.xml" value="0.118" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable-v24/white_nav_icon_tint.xml" value="0.118" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/com_facebook_button_login_logo.xml" value="0.1" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.1105" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_baseline_comment_24.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1265" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.108" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1325" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/advent_pro_medium.xml" value="0.23981481481481481" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/advent_pro_semibold.xml" value="0.1703125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/arimo.xml" value="0.1703125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/cabin.xml" value="0.1703125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/cabin_medium.xml" value="0.1703125" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/fonts.xml" value="0.23981481481481481" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/font/roboto.xml" value="0.1703125" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/activity_plash.xml" value="0.22282608695652173" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/fragment_large_video.xml" value="0.2" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.264" />
         <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1325" />
+        <entry key="..\:/LearnKotlin/TikTokApp/app/src/main/res/xml/xml.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

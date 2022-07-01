@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bottomCornered" parent="">
+        <item name="cornerSizeBottomLeft">@dimen/_6sdp</item>
+        <item name="cornerSizeBottomRight">@dimen/_6sdp</item>
+    </style>
+
+    <style name="topCornered" parent="">
+        <item name="cornerSizeTopLeft">@dimen/_6sdp</item>
+        <item name="cornerSizeTopRight">@dimen/_6sdp</item>
+    </style>
+
+</resources>
