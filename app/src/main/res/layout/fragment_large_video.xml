@@ -24,8 +24,8 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="684dp"
-                android:background="@color/dark_black">
+                android:layout_height="match_parent"
+                android:background="@color/bottom_nav_bar_selected">
 
                 <com.google.android.exoplayer2.ui.PlayerView
                     android:id="@+id/simpleExoPlayerView"
@@ -75,7 +75,7 @@
                     android:contentDescription="@string/share_video"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:srcCompat="@drawable/ic_baseline_share_24" />
+                    app:srcCompat="@drawable/ic_share" />
 
                 <ImageView
                     android:id="@+id/open_comment_section_btn"
@@ -85,7 +85,7 @@
                     android:contentDescription="@string/open_comment_section"
                     app:layout_constraintBottom_toTopOf="@+id/share_video_btn"
                     app:layout_constraintEnd_toEndOf="@+id/share_video_btn"
-                    app:srcCompat="@drawable/ic_baseline_comment_24" />
+                    app:srcCompat="@drawable/ic_comment" />
 
                 <ImageView
                     android:id="@+id/like_video_icon"
@@ -96,7 +96,7 @@
                     app:layout_constraintBottom_toTopOf="@+id/open_comment_section_btn"
                     app:layout_constraintEnd_toEndOf="@+id/open_comment_section_btn"
                     app:layout_constraintStart_toStartOf="@+id/open_comment_section_btn"
-                    app:srcCompat="@drawable/heart" />
+                    app:srcCompat="@drawable/ic_favorite" />
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/author_icon"

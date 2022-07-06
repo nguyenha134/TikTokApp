@@ -29,7 +29,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val actionBar = supportActionBar
-        actionBar!!.hide()
+//        actionBar!!.hide()
 
 
         topAnimation = AnimationUtils.loadAnimation(this, R.anim.top_animation)

@@ -27,7 +27,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-<!--    <string name="continue_with_twitter">Continue with Twitter</string>-->
+    <!--    <string name="continue_with_twitter">Continue with Twitter</string>-->
     <string name="successfully_signed_up">You have successfully signed up</string>
     <string name="error_occurred_during_sign_up">Error occurred while signing up. Kindly try again.</string>
     <string name="error_occurred_during_log_in">Error occurred while logging in. Kindly try again.</string>
@@ -52,7 +52,7 @@
     <!-- Twitter consumer key and secret -->
     <string name="twitter_consumer_key" translatable="false">***</string>
     <string name="twitter_consumer_secret" translatable="false">***</string>
-<!--    <string name="twitter">Continue with Twitter</string>-->
+    <!--    <string name="twitter">Continue with Twitter</string>-->
 
     <string name="user_too_young">You are too young to have an account. Thanks for trying.</string>
     <string name="enter_valid_year">Enter a valid year to proceed.</string>
