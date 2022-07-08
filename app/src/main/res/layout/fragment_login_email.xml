@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.ui.auth.log_in.LoginEmailFragment"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtEmail"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email hoặc TikTok ID"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textSize="@dimen/_18ssp"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail"/>
+
+    <TextView
+        android:id="@+id/tv_forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Quên mật khẩu?"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/send_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_31.2sdp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/_10.4sdp"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/grey_button_background"
+        app:cornerRadius="@dimen/_5.2sdp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forgotPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

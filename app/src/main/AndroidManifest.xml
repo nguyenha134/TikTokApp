@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TikTokApp">
         <activity
-            android:name=".presentation.SplashActivity"
+            android:name=".presentation.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +19,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".presentation.SplashActivity"
+            android:exported="false"></activity>
+        <activity
             android:name=".presentation.MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
