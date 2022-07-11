@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.ui.auth.log_in.LoginEmailFragment"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtEmail"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_address"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textSize="@dimen/_18ssp"/>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/send_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_31.2sdp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/_10.4sdp"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/grey_button_background"
+        app:cornerRadius="@dimen/_5.2sdp"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
