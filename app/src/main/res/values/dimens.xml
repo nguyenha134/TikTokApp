@@ -42,5 +42,7 @@
     <dimen name="_10.4sdp">10.4dp</dimen>
     <dimen name="_5.2sdp">5.2dp</dimen>
     <dimen name="_1.3sdp">1.3dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
 
 </resources>
