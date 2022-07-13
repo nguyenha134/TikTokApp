@@ -152,6 +152,11 @@
     <string name="add_comment">Add comment...</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="Following">Following</string>
+    <string name="Follow">Follow</string>
+    <string name="create_acount">Create a profile  follow other accounts , make your own video and more </string>
+    <string name="enter_otp">Enter 6-digit code</string>
+    <string name="your_code">your code was send to</string>
+    <string name="resend_code">Resend code</string>
 
 </resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.auth.log_in.LoginPhoneFragment">
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/country_code_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_16.5sdp"
+        app:ccpDialog_backgroundColor="@color/white"
+        app:ccpDialog_searchEditTextTint="@color/dark_black"
+        app:ccpDialog_textColor="@color/dark_black"
+        app:ccp_defaultNameCode="VN"
+        app:ccp_defaultPhoneCode="1"
+        app:ccp_showPhoneCode="false"
+        app:ccp_textSize="@dimen/_16.9sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone_number_input"
+        android:layout_width="@dimen/_0sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_7.8sdp"
+        android:layout_marginEnd="@dimen/_15.6sdp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:paddingTop="@dimen/_7.8sdp"
+        android:paddingBottom="@dimen/_7.8sdp"
+        android:textColor="@color/dark_black"
+        android:textColorHint="@color/medium_grey"
+        android:textSize="@dimen/_16.9sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/country_code_picker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/country_code_picker"
+        app:layout_constraintTop_toTopOf="@+id/country_code_picker" />
+
+    <View
+        android:id="@+id/tos_text"
+        android:layout_width="@dimen/_0sdp"
+        android:layout_height="@dimen/_1.3sdp"
+        android:layout_marginTop="@dimen/_7.8sdp"
+        android:background="@color/medium_grey"
+        app:layout_constraintEnd_toEndOf="@+id/phone_number_input"
+        app:layout_constraintStart_toStartOf="@+id/country_code_picker"
+        app:layout_constraintTop_toBottomOf="@id/country_code_picker" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/send_code_btn"
+        android:layout_width="@dimen/_0sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_31.2sdp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/_10.4sdp"
+        android:text="Send code"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/grey_button_background"
+        app:cornerRadius="@dimen/_5.2sdp"
+        app:layout_constraintEnd_toEndOf="@+id/tos_text"
+        app:layout_constraintStart_toStartOf="@+id/tos_text"
+        app:layout_constraintTop_toBottomOf="@+id/tos_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
